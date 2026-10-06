@@ -1,0 +1,9 @@
+{
+  "name": "uno-r4-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API REST y conexión USB Serial real para Arduino UNO R4",
+  "scripts": { "start": "node server.js", "ports": "node ports.js", "test": "node --test tests/*.test.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "serialport": "^12.0.0" }
+}
